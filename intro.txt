@@ -1,0 +1,38 @@
+Site Web /
+--------------------------------
+Il y a aujourd'hui 3 moyens de créer un site web : à la main, framework, cms.
+Ces 3 moyens s'adaptent à tous type de projet, petits ou très grands, tous dépendant du temps et du budget alloué.
+CMS - 1 semaine
+Framework - 2 semaines 
+A la main - 1 mois...+++
+
+--------------------------------------------------------
+--------------------------------------------------------
+Technique de Programmation /
+--------------------------------------------------------
+--------------------------------------------------------
+    A côté de ces 3 moyens là et suivant les langages, plusieurs techniques existent :
+    Procédural, Orienté Objet, Evenementielle... 
+    Ce sont des concepts ayant pour but d'organiser le code de façon différente afin d'optimiser la modularisation/encapsulation et la récupération des projets par d'autres personnes/évolution du site.
+--------------------------------------------------------
+--------------------------------------------------------
+Orienté Objet (pour php) /
+--------------------------------------------------------
+    Inconvénients :
+        - Techniquement, on ne peut rien faire de plus avec l'orienté objet qu'avec le procédural. 
+        - En général, l'approche orienté objet est moins intuitive que le procédural pour l'esprit humain. Il est plus facile de décomposer un problème ligne par ligne plus qu'avec une interaction entre les objets. 
+        - Légère perte de performance : Car on passe par plusieurs fichiers/méthodes/fonctions pour déclencher de simples fonctionnalités. 
+
+    Avantages :
+        - Modulariser afin d'avoir un code évolutif/générique
+        - Encourage le travail collaboratif, du fait de la découpe des fichiers, on peut séparer les langages et donc se diviser le travail. Egalement grâce à la modélisation du projet (langage de modélisation comme UML), cela nous permet de définir de façon compréhensible et visible notre projet.
+        - Masquer la complexité grâce au principe d'encapsulation 
+         C'est plus simple de lire : $panier->ajoutPanier();   plus qu'une série de if/else/autre au milieu du code, cela permet aux développeurs front d'utiliser simplement les méthodes que les dév back auront mis en place.
+        - Ré-utilisation du code, je récupère mes fichiers dans lesquels j'ai isolé des fonctionnalités spécifique. Par exemple si j'ai développé un panier d'un site ecommerce, dans un fichier séparé, j'ai simplement besoin de récupérer ce fichier là sur mes autres projets, pour récupérer ce système de panier.
+        - Assouplir le code, factoriser le code, meilleure conceptualisation, les pages seront moins chargées (un peu le même principe que la découpe avec include/require)
+        - Plus d'options dans le langage (héritage, surcharge, abstraction, finalisation, exception, traits)
+
+    L'orienté objet est un concept universel, une fois maitrisé et assimilé, vous pourrez comprendre l'orienté objet de n'importe quel autre langage.
+
+    En général, pour de petits projets, pas besoin d'orienté objet (à cause de la limite de temps, et du temps nécessaire à développer les architectures)
+    Mais pour tous les projets de taille moyenne et +, avec des équipes de développement, régulièrement mis à jour => Orienté Objet ! 
